@@ -28,7 +28,7 @@ CREATE TABLE users (
   email VARCHAR(100) UNIQUE NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 CONF
-ip route del default 
+sudo ip route del default 
 
 # Reinicio de la base para aplicar cambios
 sudo systemctl restart mariadb
